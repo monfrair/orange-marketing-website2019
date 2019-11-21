@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- <meta name="description" content="Website Development and Digital Marketing agency in New Jersey."> -->
+    <meta name="docsearch:language" content="en" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <title>Orange Digital Marketing</title>
+    <meta decscription="tags" />
+    <meta name="keywords"
+        content="website developer, website development, data analytics, PPC, SEO, landing pages, digital marketing agency, New Jersey" />
+    <meta name="description"
+        content="Website Development and Digital Marketing agency servicing Morris and Somerset counties New Jersey" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/newsletter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+
+    <!-- Aos on scroll animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Twitter -->
+    <meta property="og:url" content="https://twitter.com/exigentdigital" />
+    <meta name="twitter:site" content="@orangemarketing" />
+    <meta name="twitter:creator" content="@ExigentDigital" />
+    <meta name="twitter:title" content="Exigent Digital" />
+    <meta name="twitter:description"
+        content="Digital Marketing Agency specializing in Social Media, PPC, SEO, Content Marketing, Photo & Video, website design and development." />
+
+    <!-- Facebook -->
+    <meta property="og:url" content="https://www.facebook.com/exigentdigital/" />
+    <meta property="og:title" content="Exigent Digital Marketing" />
+    <meta property="og:description"
+        content="Exigent Group is a web development and digital marketing agency specializing in SEO, Social Media Marketing, website development, PPC and content marketing." />
+    <meta property="og:type" content="website" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<div class="container" style="margin-top: 100px;">
+    <form class="needs-validation" novalidate>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Website</label>
+                <input type="url" class="form-control" id="validationCustom01" placeholder="Current Website" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+
+        </div>
+        <div class="form-row">
+
+            <div class="col-md-3 mb-3">
+                <label for="validationCustom04">Email</label>
+                <input type="email" class="form-control" id="validationCustom04" placeholder="email" required>
+                <div class="invalid-feedback">
+                    Please provide a valid email address.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationCustom05">Phone</label>
+                <input type="number" class="form-control" id="validationCustom05" placeholder="Phone" required>
+                <div class="invalid-feedback">
+                    Please provide a valid phone number.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationCustom05">Message</label>
+                <input type="text-area" class="form-control" id="validationCustom05" placeholder="Message" required>
+                <div class="invalid-feedback">
+                    Please provide a valid phone number.
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+</div>
+</body>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
+</html>
