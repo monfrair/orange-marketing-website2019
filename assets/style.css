@@ -5,7 +5,7 @@
 
 body {
   color: black;
-  width: 100%%;
+  width: 100%;
 }
 
 /* a {
@@ -53,17 +53,79 @@ hr {
   border-top: 5px solid black;
 
   border-bottom: 2px solid black;
-  & .h1 {
-    font-size: 48px;
+}
+
+.h1 {
+  font-size: 48px;
+}
+
+/* @media (max-width: 576px) {
+  .img-fluid {
+    height: 250px !important;
+  }
+
+
+} */
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+  .img-fluid {
+    height: 250px !important;
+  }
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 450px) and (max-width: 750px) {
+  .img-fluid {
+    height: 250px !important;
   }
 }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 751px) and (max-width: 1200px) {
+
+  .img-fluid {
+    height: 350px !important;
+  }
+} */ 
+
+/* // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    ...
+  } */
+
+
+
+/* // Medium devices (tablets, 768px and up)
+  @media (max-width: 700px) {
+    .img-fluid {
+      height: 250px !important;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    ...
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    ...
+  } */
 
 /* Start styling for buttons
 Start styling for buttons */
 
+
 .btn-outline-primary {
   border: 3px solid orangered !important;
-  color: black !important;
+  color: orangered !important;
   background-color: white !important;
 }
 
@@ -83,6 +145,10 @@ Start styling for buttons */
   color: black !important;
   background-color: orangered !important;
   border: 3px solid orange !important;
+}
+
+#first-button {
+  border: 2px solid black !important;
 }
 
 .btn {
@@ -117,11 +183,12 @@ Start styling for buttons */
   margin-top: 50px;
   color: black !important;
   background-color: orangered;
-
-  & .a {
-    color: black;
-  }
 }
+
+.a {
+  color: black;
+}
+
 
 #footer-links.li a {
   color: black !important;
