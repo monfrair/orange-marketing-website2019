@@ -47,9 +47,7 @@ hr {
   margin-top: 30px;
   background-color: orangered;
   color: black !important;
-  padding: 30px 50px;
 
-  border-top: 4px solid black;
   border-top: 5px solid black;
 
   border-bottom: 2px solid black;
@@ -100,8 +98,6 @@ hr {
     ...
   } */
 
-
-
 /* // Medium devices (tablets, 768px and up)
   @media (max-width: 700px) {
     .img-fluid {
@@ -121,7 +117,6 @@ hr {
 
 /* Start styling for buttons
 Start styling for buttons */
-
 
 .btn-outline-primary {
   border: 3px solid orangered !important;
@@ -188,7 +183,6 @@ Start styling for buttons */
 .a {
   color: black;
 }
-
 
 #footer-links.li a {
   color: black !important;
