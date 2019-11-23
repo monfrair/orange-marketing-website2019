@@ -17,15 +17,18 @@ body {
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 .jumbotron {
-  border-top: 5px solid black;
-  /* border-bottom: 5px solid black; */
+  border-top: 5px solid orangered;
+  border-bottom: 5px solid orangered;
   color: black;
   margin-bottom: 50px;
   margin-top: 30px;
 }
+
 #jbutton {
   border: 2px solid black;
-  width: 33%;
+  width: auto;
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -48,6 +51,14 @@ nav .navbar-nav li a {
   color: black !important;
 }
 
+.nav-link .dropdown-toggle .a {
+  color: black !important;
+}
+
+.nav.a {
+  color: black !important;
+}
+
 p {
   font-size: 18px;
 }
@@ -56,9 +67,15 @@ li {
   font-size: 18px;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-toggler {
   color: black;
-  border-color: orange;
+  border-color: 3px solid black;
+}
+
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -74,10 +91,7 @@ hr {
   margin-bottom: 30px;
 }
 
-#header-logo {
-  height: 90px;
-  margin-top: 20px;
-}
+
 
 #open-headline {
   height: auto;
@@ -96,7 +110,7 @@ hr {
 
 /* @media (max-width: 576px) {
   .img-fluid {
-    height: 250px !important;
+    height: auto !important;
   }
 
 
@@ -108,7 +122,7 @@ hr {
   .img-fluid {
     height: 250px !important;
   }
-} */
+} 
 
 /* // Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 450px) and (max-width: 750px) {
