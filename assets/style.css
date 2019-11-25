@@ -17,6 +17,7 @@ body {
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 .jumbotron {
+  background-color: orangered !important;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   color: black;
