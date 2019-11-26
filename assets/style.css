@@ -239,26 +239,35 @@ end of button styling */
 /////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////// */
 
-/* #social-row {
-  margin-top: 10px;
-  /* padding-top: 5px;
-    padding-bottom: 5px; */
-/* text-align: right;
-} */
+
 
 #web-footer {
   /* background-color: orange; */
   margin-top: 50px;
-  color: black !important;
+  color: white;
   background-color: orangered;
 }
 
-.a {
+#web-footer navbar-nav {
+  background-color: black !important;
+}
+
+#web-footer a {
+  color: white;
+  font-size: 18px;
+
+}
+
+#web-footer i {
+  color: white;
+}
+
+#web-footer h4 {
   color: black;
 }
 
-#footer-links.li a {
-  color: black !important;
+#footer-nav navbar-nav {
+  background-color: orangered !important;
 }
 
 #wjhs-image {
