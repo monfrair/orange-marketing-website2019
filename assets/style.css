@@ -56,11 +56,11 @@ nav .navbar-nav li a {
   color: black !important;
 }
 
-.nav-link .dropdown-toggle .a {
+.nav-link dropdown-toggle a {
   color: black !important;
 }
 
-.nav.a {
+.nav a {
   color: black !important;
 }
 
@@ -77,10 +77,6 @@ li {
   border-color: 3px solid black;
 }
 
-
-
-
-
 /* /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 
@@ -94,7 +90,6 @@ hr {
   margin-bottom: 30px;
 }
 
-
 /* // Image styling
 // Image styling */
 #wjhs-image {
@@ -104,8 +99,6 @@ hr {
 
 /* // Image styling
 // Image styling */
-
-
 
 /* #open-headline {
   height: auto;
@@ -250,16 +243,17 @@ end of button styling */
 /////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////// */
 
+#orange-footer {
+  color: black;
+}
 
-#orange-footer {}
-
-
-
+/* #orange-footer i {
+  color: black !important;
+} */
 
 #orange-footer a {
   color: black;
   font-size: 18px;
-
 }
 
 #orange-footer i {
@@ -270,6 +264,6 @@ end of button styling */
   color: black;
 }
 
-#orange-footer navbar-nav {
+/* #orange-footer navbar-nav {
   background-color: orangered !important;
-}
+} */
