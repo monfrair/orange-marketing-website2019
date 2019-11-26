@@ -95,6 +95,17 @@ hr {
 }
 
 
+/* // Image styling
+// Image styling */
+#wjhs-image {
+  height: 300px;
+  width: auto;
+}
+
+/* // Image styling
+// Image styling */
+
+
 
 /* #open-headline {
   height: auto;
@@ -240,37 +251,25 @@ end of button styling */
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 
+#orange-footer {}
 
-#web-footer {
-  /* background-color: orange; */
-  margin-top: 50px;
-  color: white;
-  background-color: orangered;
-}
 
-#web-footer navbar-nav {
-  background-color: black !important;
-}
 
-#web-footer a {
-  color: white;
+
+#orange-footer a {
+  color: black;
   font-size: 18px;
 
 }
 
-#web-footer i {
-  color: white;
-}
-
-#web-footer h4 {
+#orange-footer i {
   color: black;
 }
 
-#footer-nav navbar-nav {
-  background-color: orangered !important;
+#orange-footer h4 {
+  color: black;
 }
 
-#wjhs-image {
-  height: 300px;
-  width: auto;
+#orange-footer navbar-nav {
+  background-color: orangered !important;
 }
