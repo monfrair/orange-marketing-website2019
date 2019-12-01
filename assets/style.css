@@ -25,12 +25,12 @@ li {
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 .jumbotron {
-  background-color: orangered !important;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  background-color: white !important;
+  border-top: 5px solid orangered;
+  border-bottom: 5px solid orangered;
   color: black;
   margin-bottom: 50px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 #jbutton {
@@ -239,9 +239,11 @@ end of button styling */
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 #orange-footer {
-  margin-top: 30px;
-  color: white;
+  /* margin-top: 30px; */
+  color: black;
   background-color: orangered !important;
+  border-top: black 5px solid;
+
 }
 
 /* #orange-footer i {
@@ -249,7 +251,7 @@ end of button styling */
 } */
 
 #orange-footer a {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
@@ -257,9 +259,9 @@ end of button styling */
   color: black;
 }
 
-#orange-footer h4 {
+/* #orange-footer h4 {
   color: black;
-}
+} */
 
 #footer-nav {
   background-color: orangered !important;
