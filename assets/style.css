@@ -4,7 +4,9 @@
 }
 
 body {
+
   color: black;
+  width: 100%;
 
 }
 
@@ -106,67 +108,7 @@ hr {
   border-bottom: 2px solid black;
 } */
 
-/* .h1 {
-  font-size: 36px;
-} */
 
-/* @media (max-width: 576px) {
-  .img-fluid {
-    height: auto !important;
-  }
-
-
-} */
-
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-
-  .img-fluid {
-    height: 250px !important;
-  }
-} 
-
-// Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 450px) and (max-width: 750px) {
-  .img-fluid {
-    height: auto !important;
-  }
-} */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 751px) and (max-width: 1200px) {
-
-  .img-fluid {
-    height: auto !important;
-  }
-} */
-
-/* // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    ...
-  }
-
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
-    ...
-  } */
-
-/* // Medium devices (tablets, 768px and up)
-  @media (max-width: 700px) {
-    .img-fluid {
-      height: 250px !important;
-    }
-  }
-
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) {
-    ...
-  }
-
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
-    ...
-  } */
 
 /* /////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////// */
