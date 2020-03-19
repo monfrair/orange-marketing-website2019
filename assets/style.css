@@ -5,7 +5,7 @@
 
 a {
   color: black;
-  font-weight: 900;
+  font-weight: bolder;
 
 }
 
@@ -16,7 +16,7 @@ a:hover {
 body {
   color: black;
   width: auto;
-  max-width: 1440px;
+
   overflow-x: hidden;
 }
 
