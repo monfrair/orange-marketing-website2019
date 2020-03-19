@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <!-- Required meta tags -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <!-- <meta name="description" content="Website Development and Digital Marketing agency in New Jersey."> -->
+    <meta name="docsearch:language" content="en" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <title>Orange Digital Marketing</title>
+    <meta decscription="tags" />
+    <meta name="keywords"
+        content="website developer, website development, data analytics, PPC, SEO, landing pages, digital marketing agency, New Jersey" />
+    <meta name="description" content="Website Development and Digital Marketing agency" />
+
+    <!-- stylesheet links -->
+    <!-- stylesheet links -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/newsletter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+
+    <!-- stylesheet links -->
+    <!-- stylesheet links -->
+
+    <!-- Aos on scroll animation CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Twitter -->
+    <meta property="og:url" content="https://twitter.com/exigentdigital" />
+    <meta name="twitter:site" content="@orangemarketing" />
+    <meta name="twitter:creator" content="@ExigentDigital" />
+    <meta name="twitter:title" content="Exigent Digital" />
+    <meta name="twitter:description"
+        content="Digital Marketing Agency specializing in Social Media, PPC, SEO, Content Marketing, Photo & Video, website design and development." />
+
+    <!-- Facebook -->
+    <meta property="og:url" content="https://www.facebook.com/exigentdigital/" />
+    <meta property="og:title" content="Exigent Digital Marketing" />
+    <meta property="og:description"
+        content="Exigent Group is a web development and digital marketing agency specializing in SEO, Social Media Marketing, website development, PPC and content marketing." />
+    <meta property="og:type" content="website" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <div class="border-bottom mb-4 mt-4 pb-2">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card-body">
+                        <form id="signupForm" method="post" class="form-horizontal" action="">
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-form-label" for="firstname">First name</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="firstname" name="firstname"
+                                        placeholder="First name" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-form-label" for="lastname">Last name</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="lastname" name="lastname"
+                                        placeholder="Last name" />
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-form-label" for="email">Email</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="Email" />
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group row">
+                                <label class="col-sm-4 col-form-label" for="confirm_phone">Phone (format
+                                    xxx-xxx-xxxx)</label>
+                                <div class="col-sm-6">
+                                    <input type="tel" class="tel form-control" pattern="^\d{3}-\d{3}-\d{4}$" required
+                                        id="confirm_phone" name="confirm_phone" placeholder="phone" />
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-6 offset-sm-4">
+                                    <div class="form-check">
+                                        <input type="checkbox" id="agree" name="agree" value="agree"
+                                            class="form-check-input" />
+                                        <label class="form-check-label">Please agree to our policy</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-9 offset-sm-4">
+                                    <a href="email:monfrair@gmail.com">
+                                        <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Sign
+                                            up</button></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $.validator.setDefaults({
+            submitHandler: function () {
+                alert("submitted!");
+            }
+        });
+        $(document).ready(function () {
+                    $("#signupForm").validate({
+                            rules: {
+                                firstname: "required",
+                                lastname: "required",
+                                username: {
+                                    required: true,
+                                    minlength: 2
+                                },
+                                phone: {
+                                    required: true,
+                                    number: true,
+                                    minlength: 13,
+                                    maxlength: 13
+                                },
+
+                                email: {
+                                    required: true,
+                                    email: true
+                                },
+                                agree: "required"
+                            },
+                            messages: {
+                                firstname: "Please enter your firstname",
+                                lastname: "Please enter your lastname",
+
+                            },
+                            phone: {
+                                required: "Please enter a valid phone number",
+                                minlength: "Please enter the full 10 digits of your phone number"
+                            },
+
+                            email: "Please enter a valid email address",
+                            agree: "Please accept our policy"
+
+                        },
+                        errorElement, 'em',
+                        errorPlacement,
+                        function (error, element) {
+                            // Add the `invalid-feedback` class to the error element
+                            error.addClass("invalid-feedback");
+                            if (element.prop("type") === "checkbox") {
+                                error.insertAfter(element.next("label"));
+                            } else {
+                                error.insertAfter(element);
+                            }
+                        },
+                        highlight,
+                        function (element, errorClass, validClass) {
+                            $(element).addClass("is-invalid").removeClass("is-valid");
+                        },
+                        unhighlight,
+                        function (element, errorClass, validClass) {
+                            $(element).addClass("is-valid").removeClass("is-invalid");
+                        }
+                    }),
+    </script>
+</body>
+
+</html>
