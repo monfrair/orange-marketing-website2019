@@ -79,7 +79,7 @@ li {
   font-weight: bold;
 }
 .nav-item a:hover {
-  color: orangered !important;
+  color: rgb(168, 148, 141) !important;
 }
 .fa-phone:hover {
   color: orangered !important;
