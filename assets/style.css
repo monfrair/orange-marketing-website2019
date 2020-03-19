@@ -78,6 +78,15 @@ li {
   color: black !important;
   font-weight: bold;
 }
+.nav-item a:hover {
+  color: orangered !important;
+}
+.fa-phone:hover {
+  color: orangered !important;
+}
+.fa-envelope-o:hover {
+  color: orangered !important;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
