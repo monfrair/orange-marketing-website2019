@@ -83,6 +83,10 @@ li {
   color: black !important;
 }
 
+.fab:hover {
+  color: black !important;
+}
+
 
 hr {
   border: .25em solid orangered;
