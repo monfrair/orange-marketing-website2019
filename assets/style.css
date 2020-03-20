@@ -17,7 +17,7 @@ a:hover {
 body {
   color: black;
   width: auto;
-
+  font-size: 18px;
   overflow-x: hidden;
 }
 
@@ -210,4 +210,3 @@ end of button styling */
 #footer-nav {
   background-color: orangered !important;
 }
-
