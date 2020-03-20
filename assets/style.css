@@ -37,18 +37,18 @@ li {
 
 .jumbotron {
   background-color: white !important;
-  border-top: 5px solid orangered;
-  border-bottom: 5px solid orangered;
+  border-top: .5em solid orangered;
+  border-bottom: .5em solid orangered;
   color: black;
-  margin-bottom: 50px;
+  margin-bottom: 5em;
   /* margin-top: 30px; */
 }
 
 #jbutton {
-  border: 2px solid black;
+  border: .2em solid black;
   width: auto;
-  margin-bottom: 10px !important;
-  margin-top: 20px !important;
+  margin-bottom: 1em !important;
+  margin-top: 2em !important;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
@@ -59,8 +59,8 @@ li {
 /* 
 ////////////////////////// */
 .navbar-nav {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 
@@ -92,14 +92,14 @@ li {
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 hr {
-  border: 3px solid orangered;
-  margin-bottom: 30px;
+  border: .2em solid orangered;
+  margin-bottom: 3em;
 }
 
 /* // Image styling
 // Image styling */
 #wjhs-image {
-  height: 300px;
+  height: 20em;
   width: auto;
 }
 
@@ -125,7 +125,7 @@ Start styling for buttons */
 ///////////////////////////////////////////////////////////////////////////////////// */
 
 .btn-outline-primary {
-  border: 3px solid black !important;
+  border: .2em solid black !important;
   color: orangered !important;
   background-color: white !important;
 }
@@ -133,19 +133,19 @@ Start styling for buttons */
 .btn-outline-primary:hover {
   color: white !important;
   background-color: orangered !important;
-  border: 3px solid black !important;
+  border: .1em solid black !important;
 }
 
 .btn-outline-primary:focus {
   color: black !important;
   background-color: orangered !important;
-  border: 3px solid black !important;
+  border: .2em solid black !important;
 }
 
 .btn-outline-primary:active {
   color: black !important;
   background-color: orangered !important;
-  border: 3px solid black !important;
+  border: .2em solid black !important;
 }
 
 /* #first-button {
@@ -153,8 +153,8 @@ Start styling for buttons */
 } */
 
 .btn {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////
@@ -176,7 +176,7 @@ end of button styling */
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 /* //////////////////////
@@ -187,7 +187,7 @@ end of button styling */
   /* margin-top: 30px; */
   color: black;
   background-color: orangered !important;
-  border-top: black 3px solid;
+  border-top: black .3em solid;
 }
 
 /* #orange-footer i {
@@ -196,7 +196,7 @@ end of button styling */
 
 #orange-footer a {
   color: black;
-  font-size: 18px !important;
+  font-size: 1em !important;
 }
 
 #orange-footer i {
