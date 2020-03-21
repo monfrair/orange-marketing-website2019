@@ -1,6 +1,6 @@
 .home-newsletter {
     padding: 30px 20px;
-    background: orangered;
+    background: darkorange;
     height: auto;
     border: 3px solid black;
 }
@@ -22,11 +22,12 @@
 
 .home-newsletter .single .form-control {
     height: 50px;
-    background: orangered);
+    background: orange);
     /* border-color: transparent; */
     border-radius: 20px 0 0 20px;
 
 }
+
 .form-control {
     border: 2px solid black;
 }

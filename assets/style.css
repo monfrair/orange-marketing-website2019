@@ -64,7 +64,7 @@ li {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   z-index: -1;
-  backdrop-filter: opacity(75%);
+  backdrop-filter: opacity(90%);
   
 }
 .jumbotron.p {
