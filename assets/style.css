@@ -56,6 +56,22 @@ li {
   /* margin-top: 30px; */
 }
 
+.jumbotron {
+
+  background-image: url(/assets/img/orange-grove.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  z-index: -1;
+  
+}
+.jumbotron.p {
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+}
 #jbutton {
   border: .1em solid black;
   width: auto;
