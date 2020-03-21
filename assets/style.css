@@ -58,12 +58,13 @@ li {
 
 .jumbotron {
 
-  background-image: url(/assets/img/orange-grove.jpg);
+  background-image: url(/assets/img/oranges_PNG5241.png.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   z-index: -1;
+  backdrop-filter: opacity(75%);
   
 }
 .jumbotron.p {
