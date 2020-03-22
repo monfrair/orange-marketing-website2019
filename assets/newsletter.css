@@ -3,13 +3,14 @@
     /* background: darkorange; */
     height: auto;
     border: .3em solid black;
-    background-image: url(/assets/img/orange-marketing-NJ.jpeg);
+    background-color: orangered;
+    /* background-image: url(/assets/img/orange-marketing-NJ.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     z-index: -1;
-    backdrop-filter: opacity(90%);
+    backdrop-filter: opacity(90%); */
 }
 
 .home-newsletter .single {
