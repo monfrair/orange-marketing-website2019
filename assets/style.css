@@ -7,12 +7,10 @@ a.nav-link {
   color: black;
   font-size: 1.12em;
   font-weight: bold;
-
 }
 
 a.nav-link:hover {
   color: orangered;
-
 }
 
 body {
@@ -22,13 +20,9 @@ body {
   overflow-x: hidden;
 }
 
-
-p {
+.p {
   font-size: 1em;
 }
-
-
-
 
 /* li {
   font-size: 1em;
@@ -36,9 +30,7 @@ p {
 
 .navbar-light .navbar-toggler {
   border-color: orangered !important;
-  border-width: .1em;
-
-
+  border-width: 0.1em;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -52,11 +44,11 @@ p {
 
 .jumbotron {
   background-color: white !important;
-  border-top: .3em solid orangered;
-  border-bottom: .3em solid orangered;
+  border-top: 0.3em solid orangered;
+  border-bottom: 0.3em solid orangered;
   color: black;
-  margin-bottom: 5em;
-  /* margin-top: 30px; */
+  margin-bottom: 1em;
+
 }
 
 /* .jumbotron {
@@ -78,10 +70,10 @@ p {
 }
 
 #jbutton {
-  border: .1em solid black;
+  border: 0.1em solid black;
   width: auto;
-  margin-bottom: 1em !important;
-  margin-top: 2em !important;
+  margin-bottom: .5em !important;
+  margin-top: .5em !important;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
@@ -92,12 +84,9 @@ p {
 /* 
 ////////////////////////// */
 .navbar-nav {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
-
-
-
 
 .fa-phone:hover {
   color: black !important;
@@ -111,32 +100,27 @@ p {
   color: black !important;
 }
 
-
 hr {
-  border: .12em solid orangered;
-  margin-bottom: 2em;
+  border: 0.12em solid orangered;
+  margin-bottom: 1em;
 }
 
 /* // Image styling
 // Image styling */
 #wjhs-image {
-  height: 15em;
+  height: 12em;
   width: auto;
 }
 
 /* // Image styling
 // Image styling */
 
-
-
-
 /* /
 /* Start styling for buttons
 */
 
-
 .btn-outline-primary {
-  border: .1em solid black !important;
+  border: 0.1em solid black !important;
   color: orangered !important;
   background-color: white !important;
 }
@@ -144,28 +128,25 @@ hr {
 .btn-outline-primary:hover {
   color: white !important;
   background-color: orangered !important;
-  border: .1em solid black !important;
+  border: 0.1em solid black !important;
 }
 
 .btn-outline-primary:focus {
   color: black !important;
   background-color: orangered !important;
-  border: .1em solid black !important;
+  border: 0.1em solid black !important;
 }
 
 .btn-outline-primary:active {
   color: black !important;
   background-color: orangered !important;
-  border: .1em solid black !important;
+  border: 0.1em solid black !important;
 }
-
-
 
 .btn {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
-
 
 * .card {
   border: none;
@@ -183,9 +164,8 @@ hr {
   /* margin-top: 30px; */
   color: black;
   background-color: orangered !important;
-  border-top: black .1em solid;
+  border-top: black 0.1em solid;
 }
-
 
 #orange-footer a {
   color: black;
@@ -195,7 +175,6 @@ hr {
 #orange-footer i {
   color: black;
 }
-
 
 #footer-nav {
   background-color: orangered !important;
