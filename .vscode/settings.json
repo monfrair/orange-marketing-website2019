@@ -1,5 +1,7 @@
 {
     "sync.autoUpload": true,
     "sync.removeExtensions": false,
-    "sync.gist": "fd542e18790486f98911947786729866"
+    "sync.gist": "fd542e18790486f98911947786729866",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true
 }
