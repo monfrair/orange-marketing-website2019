@@ -1,0 +1,26 @@
+{
+  "name": "orange-marketing-website2019",
+  "version": "1.0.0",
+  "description": "Orange Marketing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monfrair/orange-marketing-website2019.git"
+  },
+  "keywords": [
+    "digital",
+    "marketing"
+  ],
+  "author": "William Sorrentino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monfrair/orange-marketing-website2019/issues"
+  },
+  "homepage": "https://github.com/monfrair/orange-marketing-website2019#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
